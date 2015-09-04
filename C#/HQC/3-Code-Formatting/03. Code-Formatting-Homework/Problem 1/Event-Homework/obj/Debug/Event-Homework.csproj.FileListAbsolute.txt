@@ -1,3 +1,0 @@
-D:\SOFT UNI\C#\HQC\3-Code-Formatting\03. Code-Formatting-Homework\Event-Homework\Event-Homework\bin\Debug\Event-Homework.exe.config
-D:\SOFT UNI\C#\HQC\3-Code-Formatting\03. Code-Formatting-Homework\Event-Homework\Event-Homework\obj\Debug\Event-Homework.csprojResolveAssemblyReference.cache
-D:\SOFT UNI\C#\HQC\3-Code-Formatting\03. Code-Formatting-Homework\Problem 1\Event-Homework\bin\Debug\Event-Homework.exe.config
