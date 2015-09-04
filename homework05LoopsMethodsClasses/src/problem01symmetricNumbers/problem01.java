@@ -16,7 +16,6 @@ public class problem01 {
             String leftSide = numAsString.substring(0, stringSize/2);
             String rightSide = numAsString.substring(startIndexForRightSize, numAsString.length());
             leftSide = reverseWords(leftSide);
-
             if (rightSide.equals(leftSide)){
                 System.out.print(i+" ");
             }
