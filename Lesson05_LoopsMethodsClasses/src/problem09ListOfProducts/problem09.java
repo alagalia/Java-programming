@@ -1,6 +1,9 @@
 package problem09ListOfProducts;
 /*
-Create a class Product to hold products, which have name (string) and price (decimal number). Read from a text file named "Input.txt" a list of products. Each product will be in format name + space + price. You should hold the products in objects of class Product. Sort the products by price and write them in format price + space + name in a file named "Output.txt".
+Create a class Product to hold products, which have name (string) and price (decimal number).
+Read from a text file named "Input.txt" a list of products. Each product will be in format name + space + price.
+You should hold the products in objects of class Product.
+Sort the products by price and write them in format price + space + name in a file named "Output.txt".
  */
 import java.io.*;
 import java.util.*;
@@ -32,7 +35,7 @@ public class problem09 {
         try( PrintWriter writer = new PrintWriter("output-text.txt")
         ) {
             for(Product product : list) {
-            writer.println(product);
+                writer.println(product);
             }
         } catch (FileNotFoundException e) {
             e.printStackTrace();
@@ -70,6 +73,6 @@ class Product implements Comparable<Product>{
     }
 
     public int compareTo(Product other) {
-            return new Double(this.price).compareTo(other.price);
+        return new Double(this.price).compareTo(other.price);
     }
 }
