@@ -16,5 +16,18 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/Desktop/Java-master/Java-Loops-Methods-Classes/IncomesFromExcel" />
+          <root url="file://$USER_HOME$/Desktop/Java-master/Java-Loops-Methods-Classes/IncomesFromExcel" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/Desktop/Java-master/Java-Loops-Methods-Classes/IncomesFromExcel" />
+        </SOURCES>
+        <jarDirectory url="file://$USER_HOME$/Desktop/Java-master/Java-Loops-Methods-Classes/IncomesFromExcel" recursive="false" />
+      </library>
+    </orderEntry>
   </component>
 </module>
