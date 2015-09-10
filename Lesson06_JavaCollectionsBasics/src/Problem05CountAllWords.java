@@ -7,8 +7,8 @@ public class Problem05CountAllWords {
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter some text:");
         String text =scan.nextLine();
-        Pattern phonePattern = Pattern.compile("\\w+");
-        Matcher matcher = phonePattern.matcher(text);
+        Pattern word = Pattern.compile("\\w+");
+        Matcher matcher = word.matcher(text);
         Integer counter = 0;
         while (matcher.find()) {
             counter++;
